@@ -41,5 +41,18 @@ services:
 #      ME_CONFIG_BASICAUTH_USERNAME: juronja
 #      ME_CONFIG_BASICAUTH_PASSWORD: 0riPikica
       ME_CONFIG_MONGODB_SERVER: mongo 
+#  nexus:
+#    image: sonatype/nexus3
+#    container_name: nexus
+#    restart: unless-stopped
+#    healthcheck:
+#      test: curl http://localhost:8081/
+#      interval: 10s
+#      start_period: 5s
+#    volumes:
+#      - "nexus:/nexus-data"
+#    ports:
+#      - "8081:8081"
 volumes:
-  mongodb: # It wil prepend the project name
+  mongodb: # It will prepend the project name
+#  nexus:
