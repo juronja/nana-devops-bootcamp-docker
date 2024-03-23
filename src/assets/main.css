@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+}
+
+/*div {
+    border: 1px solid black;
+}*/
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: lightpink;
+    cursor: pointer;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+}
+
+
+#profile-container {
+    width: 50%;
+    margin: 40px auto;
+}
+
+#user-data-edit {
+    display: none;
+}
+
+
+.profile-img {
+    width: 100%;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.data-line {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    margin: 20px 0px;
+    
+}
+
+.data-line span {
+    margin-right: 5px;
+}
