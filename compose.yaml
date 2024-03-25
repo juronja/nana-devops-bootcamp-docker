@@ -53,6 +53,7 @@ services:
 #      - "nexus:/nexus-data"
 #    ports:
 #      - "8081:8081"
+#      - "8082:8082"
 volumes:
   mongodb: # It will prepend the project name
 #  nexus:
